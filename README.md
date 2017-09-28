@@ -1,7 +1,8 @@
 # TA-microsoft-windefender
 Splunk TA for Windows Defender inputs and extractions.
 
-Original Author: Patrick O'Connell
+# Author information
+       Original Author: Patrick O'Connell
        Version/Date: 1.0.1 / Sep 28, 2017
        Sourcetype: iXmlWinEventLog:Microsoft-Windows-Windows Defender/Operational
        Has index-time ops: false
@@ -34,4 +35,5 @@ Original Author: Patrick O'Connell
        This is a community supported TA. As such, post to answers.splunk.com
        and reference it. Someone should be with you shortly.
 
-       Pull requests via github are welcome!
+       Pull requests via github are welcome! The repository can be found
+       at https://github.com/pdoconnell/TA-microsoft-windefender.

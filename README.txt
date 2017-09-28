@@ -1,6 +1,9 @@
 TA-Microsoft-WinDefender v1.0.0
 ----------------------------       
-       
+Splunk TA for Windows Defender inputs and extractions.
+
+Author information       
+----------------------------
        Original Author: Patrick O'Connell
        Version/Date: 1.0.1 / Sep 28, 2017
        Sourcetype: iXmlWinEventLog:Microsoft-Windows-Windows Defender/Operational
@@ -32,12 +35,12 @@ Using this TA
        For information on Windows Defender event codes, see below.
        https://docs.microsoft.com/en-us/windows/threat-protection/windows-defender-antivirus/troubleshoot-windows-defender-antivirus
 
-
 Support
 ----------------------------
 
        This is a community supported TA. As such, post to answers.splunk.com
        and reference it. Someone should be with you shortly.
 
-       Pull requests via github are welcome!
+       Pull requests via github are welcome! The repository can be found
+       at https://github.com/pdoconnell/TA-microsoft-windefender.
 
