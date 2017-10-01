@@ -1,13 +1,18 @@
 # TA-microsoft-windefender
-Splunk TA for Windows Defender inputs and extractions.
+Microsoft Windows Defender TA for Splunk®. Inputs and extractions for use 
+with Splunk®.
 
 # Author information
        Original Author: Patrick O'Connell
-       Version/Date: 1.0.1 / Sep 28, 2017
-       Sourcetype: iXmlWinEventLog:Microsoft-Windows-Windows Defender/Operational
+       Version/Date: 1.0.2 / Oct 1, 2017
+       Sourcetype: XmlWinEventLog:Microsoft-Windows-Windows Defender/Operational
        Has index-time ops: false
 
 # Update History
+       1.0.2 Oct 1, 2017
+       --------
+       Fixing naming conventions and trademarks per SplunkBase documentation.
+
        1.0.1 Sep 28, 2017
        --------
        Fixed file_path and file_name extractions. Thanks to people both
