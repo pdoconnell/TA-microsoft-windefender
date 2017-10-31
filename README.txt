@@ -6,12 +6,16 @@ with Splunk®.
 Author information       
 ----------------------------
        Original Author: Patrick O'Connell
-       Version/Date: 1.0.2 / Oct 1, 2017
+       Version/Date: 1.0.3 / Oct 31, 2017
        Sourcetype: XmlWinEventLog:Microsoft-Windows-Windows Defender/Operational
        Has index-time ops: false
 
 Update History
 ----------------------------
+       1.0.3 Oct 31, 2017
+       --------
+       Added definitions for all magic values found in Defender logs as of today.
+
        1.0.2 Oct 1, 2017
        --------
        Fixing naming conventions and trademarks per SplunkBase documentation.
