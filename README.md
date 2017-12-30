@@ -4,11 +4,20 @@ with Splunk®.
 
 # Author information
        Original Author: Patrick O'Connell
-       Version/Date: 1.0.3 / Oct 31, 2017
+       Version/Date: 1.0.5 / Dec 30, 2017
        Sourcetype: XmlWinEventLog:Microsoft-Windows-Windows Defender/Operational
        Has index-time ops: false
 
 # Update History
+       1.0.5 Dec 30, 2017
+       --------
+       Fixed typo in EventTypes.conf. This makes tags work again. Thanks to
+       Chris Keladis from Katana1.
+
+       1.0.4 Nov 1, 2017
+       --------
+       Fixed wrong file inclusion for certification.
+
        1.0.3 Oct 31, 2017
        --------
        Added definitions for all magic values found in Defender logs as of today.
