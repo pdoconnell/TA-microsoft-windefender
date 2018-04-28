@@ -6,12 +6,17 @@ with Splunk®.
 Author information       
 ----------------------------
        Original Author: Patrick O'Connell
-       Version/Date: 1.0.5 / Dec 30, 2017
+       Version/Date: 1.0.6 / April 27, 2018
        Sourcetype: XmlWinEventLog:Microsoft-Windows-Windows Defender/Operational
        Has index-time ops: false
 
 Update History
 ----------------------------
+       1.0.6 April 27, 2018
+       --------
+       Updated lookup for event ID messages to match new Microsoft definitions.
+       Thanks to Mark Baumgartner of Creighton University for the catch.
+
        1.0.5 Dec 30, 2017
        --------
        Fixed typo in EventTypes.conf. This makes tags work again. Thanks to 
