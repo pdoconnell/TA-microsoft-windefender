@@ -4,11 +4,15 @@ with Splunk®.
 
 # Author information
        Original Author: Patrick O'Connell
-       Version/Date: 1.0.6 / April 27, 2018
+       Version/Date: 1.0.7 / Aug 31, 2020
        Sourcetype: XmlWinEventLog:Microsoft-Windows-Windows Defender/Operational
        Has index-time ops: false
 
 # Update History
+       1.0.7 Aug 31, 2020
+       --------
+       Added support for using this with the Splunk Add-on for Windows version 7+
+
        1.0.6 April 27, 2018
        --------
        Updated lookup for event ID messages to match new Microsoft definitions.
